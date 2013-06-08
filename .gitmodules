@@ -1,0 +1,3 @@
+[submodule ".gusto"]
+	path = .gusto
+	url = git://github.com/xles/augustus
