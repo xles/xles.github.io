@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-	<title>Blankflank.</title>
+	<title>Re-learning everything. | Blankflank.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -50,19 +50,94 @@
 			<div class="container">
 	<div class="row">
 		<div class="span9">
-			<h2>Listing posts tagged with 'project'</h2>
+			<h1>Re-learning everything.</h1>
+			Posted <time class="timeago" datetime="Fri, 02 Aug 2013 00:00:00 +0000">August 2nd, 2013</time>			in <a href="/category/projects/">Projects</a>
+			<article>
+				<p>A few weeks ago I started coding on a project for a client.  While it is
+true that I've been doing web development off and on for the past ten or
+so years, there's one thing I've actively avoided;  <em>Javascript</em>.</p>
 
-							<p>
-					<a href="/2013/06/presenting-augustus/">Presenting: Augustus.</a>
-					Posted on <time class="timeago" datetime="Sat, 08 Jun 2013 00:00:00 +0000">June 8th, 2013</time>					in <a href="/category/projects/">Projects</a><!--
-				<br>Tags:
-									<a href="/tag/project/" class="label">project</a>
-									<a href="/tag/gusto/" class="label">gusto</a>
-									<a href="/tag/blog-engine/" class="label">blog engine</a>
-								<hr>
--->
-				</p>
-					</div>
+<p>To tell you the truth, most of my work has been backend code.  I've more
+or less ignored the entire frontend side of programming, regardless of
+environment.  The user interface has always been secondary to me.  That
+changed a few years ago, when I was reading about <em>UI first software
+development</em>.  </p>
+
+<p>In particular it was these words:</p>
+
+<blockquote>
+  <p><em>"When writing end-user software, UI design should really come first.<br />
+  To the end user, the UI <strong>is</strong> the application."</em>  </p>
+</blockquote>
+
+<p>This of course, made a whole lot of sense.  The user doesn't give half 
+a rats arse how pristine the backend is, or how flexible and modular the 
+code is.  If your UI is slow and ugly, your whole program is slow and 
+ugly.</p>
+
+<p>So what do you do when you need to make a snappy feeling web based 
+application? <em>Javascript</em>.  As a long time defender of the plain HTML,
+suddenly realising the need for Javascript is uncomfortable to say the
+least.</p>
+
+<p>In Javascript's defence though, Javascript has come a long way in ten 
+years.  Javascript processing in browsers has increased by orders of
+magnitude.  And with shiny frameworks such as <a href="http://jquery.com/">JQuery</a>, it's almost
+easy to use (if you don't need to do something advanced).</p>
+
+<p>The project I'm currently working on however, required more than just
+standard JQuery.  It called for a <a href="http://en.wikipedia.org/wiki/Single-page_application"><abbr title="Single-page application"
+class="initialism">SPA</abbr> architecture</a>, which unfortunately
+means that it have to be built almost entirely with client side code, 
+i.e. Javascript and CSS.  Fortunate for me there are a lot of good
+frameworks on the market for client side development.  So far I've gone
+for following:</p>
+
+<ul>
+<li><a href="http://getbootstrap.com/">Twitter Bootstrap</a>, a CSS UI framework (the same one I'm using on
+this blog).</li>
+<li><a href="http://requirejs.org/">RequireJS</a>, <a href="http://en.wikipedia.org/wiki/Asynchronous_module_definition"><abbr title="Asynchronous module definition"
+class="initialism">AMD</abbr></a> module loader.</li>
+<li><a href="http://knockoutjs.com/">KnockoutJS</a>, responsive UI library.</li>
+<li><a href="http://twitter.github.io/typeahead.js/">Twitter Typeahead</a>, an autocomplete library.</li>
+<li><a href="https://github.com/janl/mustache.js">Mustache.js</a>, a Javascript implementation of the <a href="http://mustache.github.io/">mustache</a>
+templating language.</li>
+<li><a href="http://davisjs.com/">DavisJS</a>, a client side routing library.</li>
+</ul>
+
+<p>Truth be told I'm feeling slightly overwhelmed.  While I've used 
+Bootstrap and JQuery in the past, this is really the first proper client
+side project I've worked on.  It's a learning experience, to say the 
+least.  Learning to handle a half dozen new libraries at once is a bit
+of a mess, but the documentation is good.  It's just a bit annoying 
+having to spend ten times as much time reading documentation as I do
+actual programming.</p>
+
+<p>In the end I've gotten most of things to work, next up on the todo list
+is to integrate Mustache and Knockout.  Hopefully this will make it 
+possible for me to split my HTML out in multiple template files.  As it
+is, everything is in a giant file, because I can't figure out how to
+make Knockout load external template files...</p>
+
+<p>Getting all of this to play together is a bit of a challenge, but who 
+doesn't enjoy a good challenge?</p>
+			</article>
+			<small>
+							<a href="/tag/javascript/" class="label">JavaScript</a>
+							<a href="/tag/knockoutjs/" class="label">KnockoutJS</a>
+							<a href="/tag/requirejs/" class="label">RequireJS</a>
+							<a href="/tag/moustache/" class="label">Moustache</a>
+							<a href="/tag/spa/" class="label">SPA</a>
+						</small>
+			<hr>
+			<script>
+//  Stick your own IntenseDebate account key here:
+var idcomments_acct = '606f8dfd5e20b36117940278e0e85621';
+var idcomments_post_id;
+var idcomments_post_url;
+</script>
+<span id="IDCommentsPostTitle" style="display:none"></span>
+<script type='text/javascript' src='http://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>		</div>
 		<div class="span3 sidebar">
 						<header>
   				<h1>Blankflank.</h1>
